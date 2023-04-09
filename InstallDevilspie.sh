@@ -29,7 +29,9 @@ EOF
 
 ## 将毛玻璃设为开机自启动
 ### 创建一个sh脚本
-sudo touch devilspie.sh
+touch devilspie.sh
+### 配置权限
+sudo chmod +777 devilspie.sh
 ### 写入内容
 sudo echo "devilspie &" > devilspie.sh
 ### 移入 /etc/profile.d/

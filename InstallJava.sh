@@ -4,9 +4,6 @@
 cd ~/Downloads
 
 
-# 修正错误
-sudo apt --fix-broken install
-
 ### Oracle java17
 
 ### 下载并改名 java17
@@ -19,6 +16,15 @@ sudo dpkg -i java17.deb
 sudo apt install -y openjdk-8-jdk
 ## 安装 openjdk11
 sudo apt install -y openjdk-11-jdk
+
+# 修正错误
+sudo apt --fix-broken install
+
+sudo dpkg -i java17.deb
+sudo apt install -y openjdk-8-jdk
+sudo apt install -y openjdk-11-jdk
+
+
 
 # 切换java版本
 #sudo update-alternatives --config java

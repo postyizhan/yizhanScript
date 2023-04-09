@@ -31,11 +31,11 @@ sudo apt install -y spark-store
 wget -q -O - https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
+# 更新软件包信息
+sudo apt update
+
 # 安装vscode
 sudo apt install -y code
-
-# 更新软件包信息
-sudo apt update && sudo apt dist-upgrade -y
 
 # 安装 git
 sudo apt install -y git

@@ -16,7 +16,7 @@
 
 ### wget并执行
 
-`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/DeepinEssentials.sh && sudo sh DeepinEssentials.sh`
+`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/DeepinEssentials.sh && sh DeepinEssentials.sh`
 
 ## InstallDevilspie.sh
 [点击查看脚本内容](/InstallDevilspie.sh)
@@ -26,7 +26,7 @@
 
 ### wget并执行
 
-`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallDevilspie.sh && sudo sh InstallDevilspie.sh`
+`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallDevilspie.sh && sh InstallDevilspie.sh`
 
 ## InstallFcitx5
 [点击查看脚本内容](/InstallFcitx5.sh)
@@ -43,7 +43,7 @@
 
 ### wget并执行
 
-`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallFcitx5.sh && sudo sh `
+`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallFcitx5.sh && sh InstallFcitx5.sh`
 
 ## InstallFirefox
 [点击查看脚本内容](/InstallFirefox.sh)
@@ -54,7 +54,7 @@
 - 从俺的仓库获取 Desktop 文件
 ### wget并执行
 
-`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallFirefox.sh && sudo sh InstallFirefox`
+`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallFirefox.sh && sh InstallFirefox.sh`
 
 ## InstallJava
 [点击查看脚本内容](/InstallJava.sh.sh)
@@ -65,7 +65,7 @@
 - 安装 openjdk11
 ### wget并执行
 
-`https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallJava.sh && sudo sh InstallJava`
+`https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallJava.sh && sudo sh InstallJava.sh`
 
 ## InstallNodejs
 [点击查看脚本内容](/InstallNodejs.sh)
@@ -74,4 +74,4 @@
 - 安装和配置 nodejs 10.24.1
 ### wget并执行
 
-`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallNodejs.sh && sudo sh InstallNodejs`
+`wget https://raw.kgithub.com/postyizhan/yizhanScript/main/InstallNodejs.sh && sudo sh InstallNodejs.sh`
